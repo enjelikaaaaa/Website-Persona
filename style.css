@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial,sans-serif;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	max-height: 100vh;
+}
+/* mengatur h1 */
+header {
+	background-color: #0004ff;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+/* untuk mengatur nav index.html saja tidak untuk koleksi dan koleksi2.html*/
+nav {
+	margin: 20px 0;
+}
+
+nav a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: #0004ff;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+
+nav a:hover {
+	color: #0004ff;
+}
+
+/* cuma bagian index.html tidak untuk koleksi dan koleksi2.html*/
+.container {
+	padding: 20px;
+	flex: 1;
+	text-align: center;
+}
+/* mengatur gambar halaman awal*/
+.image-container {
+	position: relative;
+	
+}
+
+/* mengatur Selamat Datang Di Perpustakaan Impian dan emukan Impian Orang-orang dari berbagai Belahan dunia. Bacalah dan bagikan 
+impian anda sendiri*/
+.typing-text {
+	position: absolute;
+	top: 25%;
+	color: white;
+	padding: 20px;
+}
+
+/*mengatur Selamat Datang Di Perpustakaan Impian*/
+}
+.typing-text h2 {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/* mengatur copy right nya*/
+footer {
+	text-align: center;
+	top: 25%;
+	padding: 0px;
+	background-color: #0004ff;
+	color: white;
+	position: ;
+	bottom: 0;
+	width: 100%;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 2);
+}
+
+
+
+/* bagian koleksi.html* dan koleksi2.html*/
+body1 {
+	font-family: arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+
+}
+/* bagian koleksi.html* dan koleksi2.html*/
+header1 {
+	background-color: #0004ff;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+}
+/* untuk mengatur nav dari koleksi dan koleksi2.html*/
+nav1 {
+	margin: 20px 0px 8px 30px;
+}
+
+nav1 a {
+	margin: 0 15px;
+	text-decoration: none;
+	color: #0004ff;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+/* bagian sesudah nav dari koleksi dan koleksi2.html*/
+.container2 {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/* hanya card dari koleksi.html*/
+
+.dream-card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	width: 30%;
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+/* hanya card dari koleksi.html*/
+
+.dream-card:hover {
+	transform: scale(1.05);
+}
+/* hanya card dari koleksi.html*/
+
+.dream-detail {
+	display: none;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid #0004ff;
+	border-radius: 5px;
+	background-color: #e8f5e9;
+}
+/* hanya card dari koleksi.html*/
+
+.dream-card a {
+	text-decoration: none;
+	color: purple;
+}
+
+.dream-image {
+	width: 90%;
+	height: auto;
+	border-radius: 5px;
+}
+
+/* bagian koleksi2.html*/
+body2 {
+	font-family: arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+
+}
+/* hanya card dari koleksi2.html*/
+.dream-card1 {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	width: 30%;
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+/* hanya card dari koleksi2.html*/
+.dream-card1:hover {
+	transform: scale(1.05);
+}
+/* hanya card dari koleksi2.html*/
+.dream-card1 a {
+	text-decoration: none;
+}
+/* hanya card dari koleksi2.html*/
+.dream-image1 {
+	width: 90%;
+	height: auto;
+	border-radius: 5px;
+}
+
+
+p {
+	padding: 40px;
+	text-align: center;
+	margin: 0 20px 0 20px;
+}
+
+h3 {
+	color: black;
+}
